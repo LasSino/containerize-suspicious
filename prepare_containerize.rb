@@ -10,7 +10,7 @@ require 'fileutils'
 def ensure_folder(path = '')
   abs_path = File.expand_path(path, './')
   FileUtils.mkdir_p(abs_path)
-  abs_path
+  abs_path.tr('/', '\\')
 end
 
 def process_entry(sandbox, host, ro)
