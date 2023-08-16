@@ -1,0 +1,15 @@
+# This is the directory mapping for Tencent TIM.
+# This is also applicable to Tencent Wechat, which uses a subset of the
+# following directories.
+-
+  sandbox: 'C:/Program Files (x86)/Common Files/Tencent/'
+  host: './CommonFiles/Tencent'
+  ro:      False
+-
+  sandbox: 'C:/Users/WDAGUtilityAccount/AppData/Roaming/Tencent/'
+  host: './AppData/TencentRoaming/'
+  ro:      False
+-
+  sandbox: 'C:/Users/WDAGUtilityAccount/AppData/Local/Tencent/'
+  host: './AppData/TencentLocal/'
+  ro:      False
