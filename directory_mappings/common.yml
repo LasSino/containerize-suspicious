@@ -23,6 +23,10 @@
   host:    '.\User\Desktop'
   ro:      False
 -
+  sandbox: 'C:\Users\Public\Public Desktop\'
+  host:    '.\User\PublicDesktop'
+  ro:      False
+-
   sandbox: 'C:\Windows\SysWOW64\'
   host:    'C:\Windows\SysWOW64\'
   ro:      True
