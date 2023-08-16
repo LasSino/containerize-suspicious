@@ -2,27 +2,32 @@
 
 # User's document folder.
 -
-  sandbox: 'C:/Users/WDAGUtilityAccount/Documents/'
-  host: './User/Document/'
+  sandbox: 'C:\Users\WDAGUtilityAccount\Documents\'
+  host: '.\User\Document\'
   ro:      False
 # The application installation path.
 # For the installers that can customize installation path, I recommend them to
 # be installed in the following directory.
 -
-  sandbox: 'C:/Apps/'
-  host: './Apps/'
+  sandbox: 'C:\Apps\'
+  host: '.\Apps\'
   ro:      False
 # Explicitly shared directory, can be used to transfer files.
 -
-  sandbox: 'C:/Shared/'
-  host:    './Shared/'
+  sandbox: 'C:\Shared\'
+  host:    '.\Shared\'
   ro:      False
 # Desktop.
 -
-  sandbox: 'C:/Users/WDAGUtilityAccount/Desktop/'
-  host:    './User/Desktop'
+  sandbox: 'C:\Users\WDAGUtilityAccount\Desktop\'
+  host:    '.\User\Desktop'
   ro:      False
 -
-  sandbox: 'C:/Windows/SysWOW64/'
-  host:    'C:/Windows/SysWOW64/'
+  sandbox: 'C:\Windows\SysWOW64\'
+  host:    'C:\Windows\SysWOW64\'
+  ro:      True
+# Some utility scripts.
+-
+  sandbox: 'C:\Scripts'
+  host:    '.\Scripts'
   ro:      True
