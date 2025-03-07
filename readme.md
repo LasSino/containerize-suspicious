@@ -20,7 +20,7 @@
 *以下步骤是参考步骤，也是本仓库目前各个应用程序目录映射的获取办法*
 1. 创建一个空白沙箱，准备好安装程序和文件修改监视器（可用
 [ProcMon](https://learn.microsoft.com/zh-cn/sysinternals/downloads/procmon)/
-[FileActivityWatch]()）。
+[FileActivityWatch](https://www.nirsoft.net/utils/file_activity_watch.html)）。
 > *Note: ProcMon在沙箱中运行似乎会有性能等导致的bug，容易导致沙箱闪退，建议使用
   FileActivityWatch。*
 2. 打开文件修改监视器，运行安装程序，安装完成后运行一次程序。
