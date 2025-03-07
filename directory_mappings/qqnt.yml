@@ -1,0 +1,17 @@
+# This is the directory mapping for Tencent QQ NT.
+-
+  sandbox: 'C:\Program Files (x86)\Common Files\Tencent\'
+  host: '.\CommonFiles\Tencent'
+  ro:      False
+-
+  sandbox: 'C:\Users\WDAGUtilityAccount\AppData\Roaming\QQ\'
+  host: '.\AppData\QQRoaming\'
+  ro:      False
+-
+  sandbox: 'C:\ProgramData\Tencent\'
+  host: '.\ProgData\Tencent'
+  ro:   False
+-
+  sandbox: 'C:\ProgramData\xfolder\'
+  host: '.\ProgData\xfolder'
+  ro:   False
