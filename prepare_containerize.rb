@@ -23,10 +23,17 @@ end
 
 require 'yaml'
 
+$sandbox_set = Set.new
+
 def process_mapping_file(filename)
   mapping_list = []
   mapping_obj = YAML.load_file(filename)
   mapping_obj.each do |entry|
+    if $sandbox_set.include?(entry['sandbox'])
+      warn "Warning: Duplicate sandbox path skipped: #{entry['sandbox']} in file #{filename}"
+      next
+    end
+    $sandbox_set << entry['sandbox']
     mapping_list << process_entry(entry['sandbox'], entry['host'], entry['ro'])
   end
   mapping_list
